@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "glucobeat": {
+      "serverUrl": "https://mcp.glucobeat.com"
+    }
+  }
+}

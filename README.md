@@ -66,6 +66,10 @@ Everything is described as what happened in your own data, always with n and ran
 }
 ```
 
+**Gemini CLI**: `gemini extensions install https://github.com/dmbejar/glucobeat-mcp`, then `/mcp auth glucobeat` to sign in.
+
+**Antigravity**: `agy plugin install https://github.com/dmbejar/glucobeat-mcp`. It opens the sign-in when it first connects.
+
 When you connect, you sign in to GlucoBeat and give your consent on its consent screen. You can see which assistants are connected and disconnect them at any time from GlucoBeat.
 
 ## Example questions
@@ -79,6 +83,6 @@ When you connect, you sign in to GlucoBeat and give your consent on its consent 
 
 Your data is stored in the EU (AWS), encrypted in transit and at rest. GlucoBeat uses no AI of its own for this: the assistant understands the request and GlucoBeat stores or returns the data. Full policy: https://www.glucobeat.com/en/legal/privacy/
 
-`server.json` is the entry published in the official MCP Registry.
+`server.json` is the entry published in the official MCP Registry. `gemini-extension.json` is the Gemini CLI extension, and `plugin.json` with `mcp_config.json` is the Antigravity plugin.
 
 Made by [Wandary](https://www.wandary.com) in Spain.

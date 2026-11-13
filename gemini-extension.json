@@ -1,0 +1,11 @@
+{
+  "name": "glucobeat",
+  "version": "1.0.1",
+  "description": "Log glucose, meals, exercise, insulin, medication and sleep in your GlucoBeat diary by telling your assistant, and ask about your own data.",
+  "mcpServers": {
+    "glucobeat": {
+      "type": "http",
+      "url": "https://mcp.glucobeat.com"
+    }
+  }
+}

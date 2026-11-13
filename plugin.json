@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "glucobeat",
+  "displayName": "GlucoBeat",
+  "version": "1.0.1",
+  "description": "Log glucose, meals, exercise, insulin, medication and sleep in your GlucoBeat diary by telling your assistant, and ask about your own data.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "I just measured 120",
+    "How does my glucose usually respond to oatmeal?",
+    "What was my time in range last week?"
+  ],
+  "author": {
+    "name": "Wandary",
+    "url": "https://www.wandary.com"
+  },
+  "homepage": "https://www.glucobeat.com/en/ai-assistants/",
+  "repository": "https://github.com/dmbejar/glucobeat-mcp",
+  "license": "MIT",
+  "keywords": ["glucose", "diabetes", "cgm", "freestyle-libre", "dexcom", "health", "diary"]
+}
