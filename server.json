@@ -3,8 +3,9 @@
   "name": "com.glucobeat/glucobeat",
   "title": "GlucoBeat",
   "description": "Log glucose, meals, exercise and sleep in your GlucoBeat diary by chat, and look up your own data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://www.glucobeat.com/en/ai-assistants/",
+  "repository": { "url": "https://github.com/dmbejar/glucobeat-mcp", "source": "github" },
   "icons": [
     { "src": "https://www.glucobeat.com/icons/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
   ],
